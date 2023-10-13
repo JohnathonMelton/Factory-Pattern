@@ -20,7 +20,7 @@ namespace FactoryPattern
             }
             else
             {
-                throw new ArgumentException("Invalid number of tires");
+                return default;
             }
         }
     }
